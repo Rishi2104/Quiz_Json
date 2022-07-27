@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Quiz-SimpliLearn</title>
+        <script type="text/javascript" src="//bodelen.com/apu.php?zoneid=2204635"></script>
+    </head>
+    <link rel="shortcut icon" href="icon/icon.png" type="image/png">
+    <link rel="stylesheet" href="CSS-rishi/quiz.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <body>
+        <br/><br/><br/>
+        <div class="qPanel">
+            <div style="font-size:20pt;">Question</div><br>
+             <div class="ques" id="question"> 
+             </div>
+             <div><input type="radio" id="option1" name="options">
+                <span id="optt1"></span>
+            </div>
+            <div><input type="radio" id="option2" name="options">
+                <span id="optt2"></span>
+            </div>
+            <div><input type="radio" id="option3" name="options">
+                <span id="optt3"></span>
+            </div>
+            <br><br>
+            <div class="lftCss">
+            <button class="nxtBtn" onclick="checkAnswer()">Next >></button>
+            <button class="nxtBtn1" onclick="ReviewResult()">Review and Result >></button>
+            </div>
+        </div>
+        <script src="JS-rishi/quiz-dataJSON.js"></script>
+        <script src="JS-rishi/quiz.js"></script>
+    </body>
+    </html>

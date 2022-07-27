@@ -1,0 +1,45 @@
+body{
+    background-color: #420352 ;
+    background-size: cover;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+}
+.qPanel{
+    margin:auto;
+    width:800px;
+    vertical-align: center;
+    margin:0 auto;
+    background-color: #daacf1 ;
+    border: 2 ;
+    border-radius : 10px ;
+    padding: 20px ;
+    height: 260px ;
+    font-size: 15pt;
+}
+.ques{
+    font-size : 18pt;
+    font-weight: bold ;
+}
+.nxtBtn{
+    position: relative ;
+    right : 10px ;
+    float: right;
+    border:none ;
+    font-size: 12pt ;
+    background-color: #561865  ;
+    color: #ffffff ;
+    width: 120px ;
+    height: 45px ;
+}
+.nxtBtn1{
+    position: relative ;
+    right : 10px ;
+    float: left;
+    border:none ;
+    font-size: 12pt ;
+    background-color: #561865  ;
+    color: #ffffff ;
+    width: 180px ;
+    height: 45px ;
+}
